@@ -1,3 +1,9 @@
+"""
+Write the program "99 Bottles of Beer on the Wall" using a while 
+loop. Be mindful to change the word 'bottles' to 'bottle' when 
+down to the last one. You must do the full 99 bottles; the sample 
+shows the last 3 verses.
+"""
 bottle_count = 99
 while bottle_count > 0:
     if bottle_count > 2:
