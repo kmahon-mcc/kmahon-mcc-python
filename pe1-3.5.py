@@ -12,8 +12,8 @@ swapped = True
 while swapped:
     swapped = False
     for i in range(len(names) - 1):
-        if names[i] > names[i + 1]:
-            names[i], names[i + 1] = names[i + 1], names[i]
+        if names[i] > names[i+1]:
+            names[i], names[i+1] = names[i+1], names[i]
             swapped = True
 print(names)
 names.reverse()
