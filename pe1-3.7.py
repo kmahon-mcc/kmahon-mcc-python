@@ -17,4 +17,4 @@ for i in range(6):
     else:
         print("Input must be whole number.")
 heart_rate_average = int(heart_rate_total/len(time_slots))
-print(f"Your average heartrate was {heart_rate_average}")
+print(f"Your average heartrate was {heart_rate_average} BPM")
