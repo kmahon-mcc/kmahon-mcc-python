@@ -12,8 +12,6 @@ def main():
         try:
             art_index = int(
                 input("Enter the index of the artist you'd like to replace (0-9): "))
-            # if not 0 <= art_index < len(top_artists):
-            # raise IndexError
             artist = input("Enter the name of the artist you'd like to add: ")
             top_artists[art_index] = artist.strip().title()
             print(top_artists)
