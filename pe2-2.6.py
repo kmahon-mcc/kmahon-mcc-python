@@ -33,6 +33,8 @@ def main():
             print("Error: cannot divide by 0")
         except AttributeError:
             print("I was kidding about that, you can't capitalize a number")
+        except:
+            print("Unexpected error")
 
 
 main()
